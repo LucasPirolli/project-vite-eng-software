@@ -1,10 +1,11 @@
 .header {
-  background-color: #0468a2;
+  background-color:#2d6073;
   color: #fff;
   height: 5rem;
   z-index: 1;
 }
 
 .title {
+  padding-top: 20px;
   text-align: center;
 }

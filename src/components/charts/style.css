@@ -4,17 +4,8 @@
     justify-content: space-between;
 }
 
-.bar-chart {
-    background-color: rgb(193, 253, 240);
-    border-radius: 4px;
+h3 {
+    text-align: center;
+    padding-bottom: 5px;
 }
 
-.line-chart {
-    background-color: rgb(193, 253, 240);
-    border-radius: 4px;
-}
-
-.donut-chart {
-    background-color: rgb(193, 253, 240);
-    border-radius: 4px;
-}
