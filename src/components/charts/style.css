@@ -1,0 +1,20 @@
+.container-chart {
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+
+.bar-chart {
+    background-color: rgb(193, 253, 240);
+    border-radius: 4px;
+}
+
+.line-chart {
+    background-color: rgb(193, 253, 240);
+    border-radius: 4px;
+}
+
+.donut-chart {
+    background-color: rgb(193, 253, 240);
+    border-radius: 4px;
+}

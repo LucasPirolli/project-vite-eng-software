@@ -1,0 +1,10 @@
+.header {
+  background-color: #0468a2;
+  color: #fff;
+  height: 5rem;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+}
