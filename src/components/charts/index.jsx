@@ -26,13 +26,19 @@ function Charts() {
         id: "basic-bar",
       },
       xaxis: {
-        categories: [1950, 1960, 1970, 1980, 1991, 2000, 2010, 2020, 2022],
+        categories: [
+          2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018,
+          2019, 2020, 2021
+        ],
       },
     },
     series: [
       {
         name: "series-1",
-        data: [50, 55, 98, 125, 91, 148, 198, 256, 350],
+        data: [
+          160000, 159000, 153000, 150000, 147000, 142000, 138000, 136000,
+          136000, 134000, 130000, 129000, 128000, 127000,
+        ],
       },
     ],
   };
@@ -58,7 +64,7 @@ function Charts() {
     <React.Fragment>
       <div className="container-chart">
         <div className="bar-chart">
-          <h3>Decidindo</h3>
+          <h3>Matrículas Ensino Médio Brasil - 2021</h3>
           <Chart
             type="bar"
             width="500"
@@ -67,7 +73,7 @@ function Charts() {
           />
         </div>
         <div className="line-chart">
-          <h3>População absoluta do Brasil - 1950 a 2022</h3>
+          <h3>Matrículas Ensino Fundamental Brasil - 2021</h3>
           <Chart
             width="500"
             type="line"
